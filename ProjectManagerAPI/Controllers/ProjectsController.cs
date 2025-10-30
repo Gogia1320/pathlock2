@@ -87,7 +87,6 @@ namespace ProjectManagerAPI.Controllers
             return NoContent();
         }
 
-        // Task-related endpoints (nested under projects)
         [HttpPost("{projectId}/tasks")]
         public async Task<IActionResult> AddTaskToProject(int projectId, [FromBody] TaskItemDto taskDto)
         {

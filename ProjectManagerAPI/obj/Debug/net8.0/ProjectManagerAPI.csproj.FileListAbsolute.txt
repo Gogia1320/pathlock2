@@ -39,3 +39,4 @@ C:\Users\paras\OneDrive\Desktop\pathlock2\ProjectManagerAPI\obj\Debug\net8.0\ref
 C:\Users\paras\OneDrive\Desktop\pathlock2\ProjectManagerAPI\obj\Debug\net8.0\ProjectManagerAPI.pdb
 C:\Users\paras\OneDrive\Desktop\pathlock2\ProjectManagerAPI\obj\Debug\net8.0\ProjectManagerAPI.genruntimeconfig.cache
 C:\Users\paras\OneDrive\Desktop\pathlock2\ProjectManagerAPI\obj\Debug\net8.0\ref\ProjectManagerAPI.dll
+C:\Users\paras\OneDrive\Desktop\pathlock2\ProjectManagerAPI\obj\Debug\net8.0\ProjectManagerAPI.sourcelink.json

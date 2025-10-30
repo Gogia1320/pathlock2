@@ -20,7 +20,7 @@ namespace ProjectManagerAPI.Services
             var project = _dataStore.Projects.FirstOrDefault(p => p.Id == projectId && p.UserId == userId);
             if (project == null)
             {
-                return null; // Project not found or doesn't belong to the user
+                return null; 
             }
 
             var newTask = new TaskItem
@@ -42,14 +42,13 @@ namespace ProjectManagerAPI.Services
             var taskToUpdate = _dataStore.Tasks.FirstOrDefault(t => t.Id == taskId);
             if (taskToUpdate == null)
             {
-                return null; // Task not found
+                return null; 
             }
 
-            // Verify that the task belongs to a project owned by the user
             var project = _dataStore.Projects.FirstOrDefault(p => p.Id == taskToUpdate.ProjectId && p.UserId == userId);
             if (project == null)
             {
-                return null; // Project not found or doesn't belong to the user
+                return null; 
             }
 
             taskToUpdate.Title = taskDto.Title;
@@ -64,14 +63,13 @@ namespace ProjectManagerAPI.Services
             var taskToRemove = _dataStore.Tasks.FirstOrDefault(t => t.Id == taskId);
             if (taskToRemove == null)
             {
-                return false; // Task not found
+                return false; 
             }
 
-            // Verify that the task belongs to a project owned by the user
             var project = _dataStore.Projects.FirstOrDefault(p => p.Id == taskToRemove.ProjectId && p.UserId == userId);
             if (project == null)
             {
-                return false; // Project not found or doesn't belong to the user
+                return false; 
             }
 
             _dataStore.Tasks.Remove(taskToRemove);
@@ -90,7 +88,7 @@ namespace ProjectManagerAPI.Services
             var project = _dataStore.Projects.FirstOrDefault(p => p.Id == task.ProjectId && p.UserId == userId);
             if (project == null)
             {
-                return null; // Project not found or doesn't belong to the user
+                return null; 
             }
 
             return task;
