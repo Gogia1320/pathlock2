@@ -169,4 +169,27 @@ VITE_API_BASE_URL=http://localhost:5142/api/v1
 * Open browser → http://localhost:5173
 * Register → Login → Create project → Add tasks
 * View and manage tasks in project details page
- 
+
+## Screenshots
+1. register page
+<img width="919" height="411" alt="image" src="https://github.com/user-attachments/assets/5205aa27-bfb8-4ca7-98b0-85aac69ed4c6" />
+
+2. login page
+<img width="926" height="400" alt="image" src="https://github.com/user-attachments/assets/4ac19a3c-a612-48da-83c9-cb3a5792f5f0" />
+
+3. Project dashboard
+<img width="582" height="408" alt="image" src="https://github.com/user-attachments/assets/945c4c12-5d00-42c8-88b1-efafbc7740e9" />
+
+* adding project
+<img width="580" height="398" alt="image" src="https://github.com/user-attachments/assets/0489b30f-1096-4392-9fe6-f11a5ac0b5da" />
+
+4. Task dashboard
+<img width="584" height="411" alt="image" src="https://github.com/user-attachments/assets/349b4bcf-15fb-4062-9683-07e13f0e666f" />
+
+* adding task
+<img width="780" height="410" alt="image" src="https://github.com/user-attachments/assets/12597628-c9f2-410d-9b2a-624eda8f7a17" />
+
+
+
+
+
