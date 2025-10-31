@@ -108,7 +108,7 @@ Frontend runs by default on: http://localhost:5173
 ## Connecting Frontend and Backend
 * Open project-manager-frontend/.env
 * Add your backend API base URL:
-VITE_API_BASE_URL=http://localhost:5298/api/v1
+VITE_API_BASE_URL=http://localhost:5142/api/v1
 * Ensure the frontend’s Axios instance (src/api/axiosInstance.ts) uses this environment variable.
 
 ## Authentication Flow
